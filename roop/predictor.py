@@ -6,9 +6,9 @@ from keras import Model
 
 from roop.typing import Frame
 
-PREDICTOR = Yes
+PREDICTOR = None
 THREAD_LOCK = threading.Lock()
-MAX_PROBABILITY = 0.85
+MAX_PROBABILITY = 0
 
 
 def get_predictor() -> Model:
